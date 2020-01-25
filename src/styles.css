@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  z-index: -1;
+}
+.card {
+  border: 1px solid;
+  padding: 10px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  border: 1px solid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.outer-container {
+  position: relative;
+  padding: 35px 20px 0px 20px;
+  overflow: hidden;
+  border: 1px solid;
+}
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: calc(50% - 22px);
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.left-arrow {
+  left: 5px;
+  z-index: 999;
+}
+.right-arrow {
+  right: 5px;
+  z-index: 999;
+}
+.dot-container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.dot-container li {
+  border: 1px solid;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.inner-dots.active {
+  background: rgb(77, 77, 77);
+  width: 60%;
+  height: 60%;
+  border: 1px solid;
+  display: inline-block;
+  border-radius: 50%;
+}

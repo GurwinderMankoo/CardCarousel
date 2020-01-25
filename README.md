@@ -1,2 +1,0 @@
-# CardCarousel
-Created with CodeSandbox
